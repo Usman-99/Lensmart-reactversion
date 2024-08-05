@@ -1,0 +1,82 @@
+body{height: 100%;
+  width: 100%;
+  background-image: url("./Images/newcover.jpg");
+  background-position: center;
+  background-size: 100vh;
+  position: relative;
+margin: 0;
+padding: 0;}
+        h1,
+        h2,
+        h3,
+        h5,
+        h6 {
+          color: darkblue;
+            font-family: "Raleway", sans-serif;
+            background-color: cornflowerblue;
+            padding: 10px 3px 10px 3px;
+        }
+     
+        html {
+            height: 100%;
+            line-height: 1.8;
+        }
+
+        .w3-bar .w3-button {
+            padding: 18px;
+        }
+
+.navbar{
+  margin-bottom: 80px;
+}
+#about{
+  margin-top: 50px;
+}
+h4{
+  background-color: aliceblue;
+  padding: 5px 3px 5px 3px;
+}
+
+i{
+  cursor: pointer;
+}
+
+@media (max-width: 650px) {
+  .img-fluid {
+    height: 100px;
+    zoom: 3;
+  }
+}
+
+@media (min-width: 651px) {
+  .img-fluid {
+    height: 600px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 650px) {
+  .screen {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    margin-bottom: 10%;
+  }
+}
+h2{
+  font-size: larger
+}
+img{
+  cursor: pointer;
+}
+.shopping-cart-btn {
+	color: #fff;
+	display: flex;
+}
+
+.product-count {
+	margin-top: -5px;
+	width: 20px;
+	height: 20px;
+	border-radius: 12px;
+	background-color: #0797b0;
+	overflow: hidden;
+}
